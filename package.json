@@ -1,0 +1,33 @@
+{
+  "name": "@sina95/ebds",
+  "version": "0.0.1",
+  "description": "Node.js package to work with bill acceptors using EBDS protocol. Linux, OSX and Windows.",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sina95/ebds.git"
+  },
+  "keywords": [
+    "ebds",
+    "ebds protocol",
+    "ebds plus",
+    "mei",
+    "mpost",
+    "acceptor",
+    "hardware"
+  ],
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  },
+  "dependencies": {
+    "promise-toolbox": "^0.19.1",
+    "serialport": "^9.0.7"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "MIT"
+}

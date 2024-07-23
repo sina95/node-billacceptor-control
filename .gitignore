@@ -1,0 +1,3 @@
+# Files and folders that git need to ignore, invisible files to remote origin
+/node_modules
+package-lock.json
